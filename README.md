@@ -1,1 +1,1 @@
-"# designPatterns" 
+"#practicingDesignPatterns" 
