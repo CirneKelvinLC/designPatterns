@@ -24,7 +24,8 @@ public class UserProfile {
 	private String phoneNumber;
 	private String name;
 	private String alternativeEmail;
-	
+
+	//private constructor to enforce the use of the builder
 	private UserProfile(UserProfileBuilder builder) {
 		this.identityCard = builder.identityCard;
 		this.username = builder.username;
